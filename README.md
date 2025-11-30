@@ -74,6 +74,8 @@ Report/Presentation: Project findings will be communicated through one of the pr
 
 Code Requirement: All code must be written in Python, be well-documented, and include a README.md with instructions to reproduce the analysis.
 
+
+
 SLEEP DATA
 
 date	total_sleep_hours	deep_sleep_hours	light_sleep_hours	num_awakenings	sleep_score
@@ -107,6 +109,8 @@ date	total_sleep_hours	deep_sleep_hours	light_sleep_hours	num_awakenings	sleep_s
 2025-11-28	8.1	1.8	6.3	1	92
 2025-11-29	7.0	1.2	5.8	2	83
 2025-11-30	6.8	1.1	5.7	3	80<img width="504" height="654" alt="image" src="https://github.com/user-attachments/assets/1a999e6d-a348-4eed-b035-ada57b6110e8" />
+
+
 
 EXTERNAL DATA PENDIK
 
