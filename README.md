@@ -1,4 +1,7 @@
 DSA 210 – Sleep Quality Analysis Using Weather Data
+Abstract:
+This project investigates the influence of weather conditions on sleep quality using merged sleep and weather datasets. It includes descriptive analysis, hypothesis testing, and machine learning experiments for both classification and regression. Results indicate measurable associations between environmental variables and sleep outcomes.
+
 1. Introduction and Objective
 
 Sleep quality is a crucial component of overall physical and mental well-being. Environmental factors, particularly weather conditions such as temperature and humidity, may influence sleep duration and quality. The aim of this project is to analyze the relationship between sleep characteristics and weather conditions using personal sleep data combined with external weather data. Additionally, machine learning methods are applied to predict sleep quality based on environmental variables.
