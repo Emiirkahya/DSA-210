@@ -4,6 +4,7 @@ DSA 210 – Sleep Quality Analysis Using Weather Data
 Sleep quality is a crucial component of overall physical and mental well-being. Environmental factors, particularly weather conditions such as temperature and humidity, may influence sleep duration and quality. The aim of this project is to analyze the relationship between sleep characteristics and weather conditions using personal sleep data combined with external weather data. Additionally, machine learning methods are applied to predict sleep quality based on environmental variables.
 
 2. Data Description
+
 2.1 Sleep Data
 The sleep dataset was calculated manually by the participant using daily sleep summaries. Each observation represents one night of sleep.
 
@@ -14,6 +15,7 @@ The dataset includes the following variables:
 - light_sleep_hours: Duration of light sleep
 - num_awakenings: Number of awakenings during the night
 - sleep_score: Overall sleep quality score
+
 2.2 Weather Data
 Weather data was obtained from Apple Weather for the Pendik region. Daily weather summaries were used to align with the sleep data.
 
@@ -47,10 +49,12 @@ Several statistical hypothesis tests were conducted to evaluate relationships ob
 These tests provide statistical evidence supporting or rejecting the proposed hypotheses.
 
 6. Machine Learning Methodology
+
 6.1 Classification
 The primary machine learning task was binary classification, where the objective was to predict whether a night resulted in good or poor sleep. Logistic Regression was used as a baseline model, while Random Forest was employed as a more complex non-linear model.
 
 Model performance was evaluated using Accuracy, F1-score, and ROC-AUC metrics. Confusion matrices and ROC curves were generated to visualize classification performance.
+
 6.2 Regression (Additional Analysis)
 As an additional analysis, regression models were used to predict continuous sleep outcomes, specifically sleep_score and total_sleep_hours. Linear Regression served as a baseline model, and Random Forest Regressor was used to capture potential non-linear relationships.
 
